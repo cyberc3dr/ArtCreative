@@ -1,0 +1,67 @@
+name: artcreative
+main: creative.main.Main
+version: 1.0
+author: MrArthur4Ik
+commands:
+  worlds:
+    description: Worlds list of ArtGame.
+  myworld:
+    description: My world.
+  worldtp:
+    description: Teleport in the world. For admins.
+    usage: /worldtp <worldName>
+  hub:
+    description: Teleport to hub.
+  spawn:
+    description: Teleport to hub.
+  donate:
+    description: Open donate menu.
+  shop:
+    description: Open donate menu.
+  cosmetics:
+    description: Open cosmetics menu.
+  kit:
+    description: Open KitPvP menu.
+  balance:
+    description: To see the balance.
+  bal:
+    description: To see the balance.
+  tell:
+    description: Send a private message to the player.
+    usage: /tell <player> <message>
+  w:
+    description: Send a private message to the player.
+    usage: /tell <player> <message>
+  msg:
+    description: Send a private message to the player.
+    usage: /tell <player> <message>
+  social:
+    description: Social Networks.
+  bc:
+    description: Broadcast.
+    usage: /bc <message>
+  name:
+    description: To change the name of the world
+    usage: /name <name>
+  agreload:
+    description: Reload configuration.
+  gm:
+    description: Change GameMode
+    usage: /gm <0-3>
+  like:
+    description: Like current world.
+  dislike:
+    description: Dislike current world.
+  stopworlds:
+    description: Stop all worlds.
+    usage: /stopworlds <reason>
+  givemoney:
+    description: Give money.
+    usage: /givemoney <nickname> <count>
+  giveruby:
+    description: Give ruby.
+    usage: /giveruby <nickname> <count>
+  top:
+    description: Show top worlds.
+  tech:
+    description: Start technic mode.
